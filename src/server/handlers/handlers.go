@@ -11,10 +11,15 @@ func Index(w http.ResponseWriter,r *http.Request){
 }
 
 func TodoList(w http.ResponseWriter,r *http.Request){
-	todos :=Todos{
+	todos := Todos{
 		Todo{Id:1,Name:"Write presentation"},
 		Todo{Id:2,Name:"Host meetup"},
 	}
+
+	w.Header().Set("Content-Type","application/json;charset=UTF-8")
+	w.WriteHeader(http.StatusOK)
+
+
 	if err :=json.NewDecoder(todos);err !=nil{
 		panic(err)
 	}
