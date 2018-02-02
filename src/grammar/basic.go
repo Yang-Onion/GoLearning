@@ -89,14 +89,36 @@ func referance() {
 
 //控制流
 func logicFlow() {
-
+	
+	//if
 	x := 0
 	if n := "abc"; x > 0 {
-		println(n[0])
+		fmt.Println(n[0])
 	} else if x < 0 {
-		println(n[1])
+		fmt.Println(n[1])
 	} else {
-		println(n[2])
+		fmt.Println(n[2])
 	}
+
+	//for
+	s := "abc"
+	for i, n := 0, len(s); i < n; i++ {
+		fmt.Println(s[i])
+	}
+	
+	length := len(s)
+	for length > 0 {
+		fmt.Println(s[length-1])
+		length--
+	}
+/*
+	for {
+		fmt.Println(s)
+	}
+*/
+
+	//switch
+
+	
 
 }
