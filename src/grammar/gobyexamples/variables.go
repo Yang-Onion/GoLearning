@@ -18,6 +18,6 @@ func variables() {
 	var m string
 
 	if !k {
-		fmt.Println("m default value is empty",m)
+		fmt.Println("m default value is empty", m)
 	}
 }

@@ -11,4 +11,16 @@ func main() {
 
 	fmt.Println("--------------Variables--------------")
 	variables()
+
+	fmt.Println("--------------constants--------------")
+	constants()
+
+	fmt.Println("--------------for--------------")
+	funcFor()
+
+	fmt.Println("--------------else if--------------")
+	ifelse()
+
+	fmt.Println("--------------switch--------------")
+	funcSwitch()
 }
