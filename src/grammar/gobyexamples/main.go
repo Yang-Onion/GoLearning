@@ -23,4 +23,7 @@ func main() {
 
 	fmt.Println("--------------switch--------------")
 	funcSwitch()
+
+	fmt.Println("--------------array--------------")
+	funcArr()
 }
