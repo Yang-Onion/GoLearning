@@ -26,4 +26,17 @@ func main() {
 
 	fmt.Println("--------------array--------------")
 	funcArr()
+	fmt.Println("--------------slice--------------")
+	funcSlice()
+	fmt.Println("--------------map--------------")
+	funcMap()
+	fmt.Println("--------------range--------------")
+	funcRange()
+
+	fmt.Println("--------------func--------------")
+
+	plus(1, 2)
+
+	fibo := fibonaci(10)
+	fmt.Println("fibo:", fibo)
 }
