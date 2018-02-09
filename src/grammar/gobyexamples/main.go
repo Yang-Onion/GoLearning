@@ -39,4 +39,9 @@ func main() {
 
 	fibo := fibonaci(10)
 	fmt.Println("fibo:", fibo)
+	fmt.Println("--------------multireturn--------------")
+	multiReturn()
+
+	fmt.Println("--------------variadicfunctions--------------")
+	variadicfunctions()
 }
