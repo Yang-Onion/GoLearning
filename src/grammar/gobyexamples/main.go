@@ -44,4 +44,11 @@ func main() {
 
 	fmt.Println("--------------variadicfunctions--------------")
 	variadicfunctions()
+
+	fmt.Println("--------------clousers--------------")
+	closures()
+
+	fmt.Println("--------------recurision--------------")
+	recurision()
 }
+
