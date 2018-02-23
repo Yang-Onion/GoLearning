@@ -50,5 +50,19 @@ func main() {
 
 	fmt.Println("--------------recurision--------------")
 	recurision()
-}
 
+	fmt.Println("--------------pointer--------------")
+	funcPointer()
+
+	fmt.Println("--------------struct--------------")
+	funcStruct()
+
+	fmt.Println("--------------struct-methods--------------")
+	structMethods()
+
+	fmt.Println("--------------struct-interface--------------")
+	funcInterface()
+
+	fmt.Println("--------------error--------------")
+	funcError()
+}
