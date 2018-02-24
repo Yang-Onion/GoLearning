@@ -65,4 +65,7 @@ func main() {
 
 	fmt.Println("--------------error--------------")
 	funcError()
+
+	fmt.Println("--------------goroutine--------------")
+	funcGoroutines()
 }
