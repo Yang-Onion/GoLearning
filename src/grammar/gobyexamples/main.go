@@ -67,8 +67,11 @@ func main() {
 	funcError()
 
 	fmt.Println("--------------goroutine--------------")
-	funcGoroutines()
+	//funcGoroutines()
 
 	fmt.Println("--------------channel--------------")
 	funcChannel()
+
+	fmt.Println("--------------channel buffer--------------")
+	channelbuffer()
 }
