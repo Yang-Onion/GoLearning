@@ -68,4 +68,7 @@ func main() {
 
 	fmt.Println("--------------goroutine--------------")
 	funcGoroutines()
+
+	fmt.Println("--------------channel--------------")
+	funcChannel()
 }
