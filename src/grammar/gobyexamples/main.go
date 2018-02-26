@@ -77,4 +77,7 @@ func main() {
 
 	fmt.Println("--------------channel async--------------")
 	channelAsync()
+
+	fmt.Println("--------------channel directions--------------")
+	channeldirection()
 }
