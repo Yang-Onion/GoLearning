@@ -74,4 +74,7 @@ func main() {
 
 	fmt.Println("--------------channel buffer--------------")
 	channelbuffer()
+
+	fmt.Println("--------------channel async--------------")
+	channelAsync()
 }
