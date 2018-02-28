@@ -80,4 +80,7 @@ func main() {
 
 	fmt.Println("--------------channel directions--------------")
 	channeldirection()
+
+	fmt.Println("--------------select--------------")
+	funcSelect()
 }
