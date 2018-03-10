@@ -83,4 +83,7 @@ func main() {
 
 	fmt.Println("--------------select--------------")
 	funcSelect()
+
+	fmt.Println("--------------sorting--------------")
+	sorting()
 }
