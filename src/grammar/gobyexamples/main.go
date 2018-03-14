@@ -86,4 +86,7 @@ func main() {
 
 	fmt.Println("--------------sorting--------------")
 	sorting()
+
+	fmt.Println("--------------json--------------")
+	funcJson()
 }
